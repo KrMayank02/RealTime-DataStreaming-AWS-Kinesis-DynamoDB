@@ -1,7 +1,9 @@
 # RealTime-DataStreaming-AWS-Kinesis-DynamoDB
 Project to generate data for Kinesis Data Stream that can be copied to the DynamoDB database using Lambda Function.
 
+
 **Objective:** To deploy infrastructure for real-time data management requirements on the AWS Cloud offers a scalable, flexible, and cost-effective solution for organizations aiming to harness the power of real-time data processing. You are given a project to create data in a Kinesis stream that can be copied to the DynamoDB database.
+
 
 **Services, Tools & Environment Used in this Project:**
 
@@ -14,6 +16,7 @@ Project to generate data for Kinesis Data Stream that can be copied to the Dynam
 •	**AWS DynamoDB Database:** Amazon DynamoDB is a fully managed, serverless NoSQL database service provided by Amazon Web Services (AWS) that supports both key-value and document data structures. It is designed to provide single-digit millisecond latency at any scale, making it a primary choice for high-traffic web applications, gaming, and real-time analytics.
 
 •	**AWS CloudShell** is a browser-based command-line environment within the AWS console, pre-authenticated with your account, offering pre-installed tools (AWS CLI, SDKs, Bash, PowerShell) for easy, secure management and scripting of AWS resources without local setup. In this project, we will be generating Data for Kinesis Data stream by running Python script from CloudShell.
+
 
 **High Level Tasks/Steps:**
 
@@ -30,6 +33,7 @@ Project to generate data for Kinesis Data Stream that can be copied to the Dynam
 	Perform Scan Operation on database-table to verify Real time data.
 
 
+**Screenshot:**
 
 
 <img width="1302" height="566" alt="image" src="https://github.com/user-attachments/assets/a5a282b0-88f0-4b59-b0cc-2ba5fd5c07cd" />
